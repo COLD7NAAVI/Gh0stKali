@@ -1,0 +1,29 @@
+# Cache
+.cache/
+__pycache__/
+
+# History
+.bash_history
+.zsh_history
+
+# SSH
+.ssh/
+
+# GPG
+.gnupg/
+
+# Python
+*.pyc
+
+# Temporary
+*.log
+*.tmp
+
+# Trash
+.local/share/Trash/
+
+# VS Code
+.vscode/
+
+# Downloaded fonts
+fonts/*.zip
