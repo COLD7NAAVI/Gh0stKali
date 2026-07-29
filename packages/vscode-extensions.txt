@@ -3,6 +3,5 @@
 ┃ You are looking for \"code-oss\"
 ┃ Starting code-oss for you...
 ┗━
-[90m[main 2026-07-29T06:40:44.015Z][0m update#setState disabled
-[90m[main 2026-07-29T06:40:44.016Z][0m update#ctor - updates are disabled as there is no update URL
-[90m[main 2026-07-29T06:41:01.584Z][0m Extension host with pid 17602 exited with code: 2, signal: unknown.
+[90m[main 2026-07-29T07:35:48.032Z][0m update#setState disabled
+[90m[main 2026-07-29T07:35:48.033Z][0m update#ctor - updates are disabled as there is no update URL

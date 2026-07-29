@@ -83,6 +83,7 @@ cifs-utils
 clang
 clang-21
 clang-tools-21
+code-oss
 colord
 colord-data
 comerr-dev:amd64
@@ -499,6 +500,7 @@ libaacs0:amd64
 libabsl20260107:amd64
 libaccountsservice0:amd64
 libacl1:amd64
+libada-url0-3:amd64
 libadwaita-1-0:amd64
 libaec0:amd64
 libafflib0t64:amd64
@@ -907,6 +909,7 @@ libhavege2:amd64
 libhdf4-0:amd64
 libhdf5-310:amd64
 libhdf5-hl-310:amd64
+libhdr-histogram6:amd64
 libheif-plugin-aomenc:amd64
 libheif-plugin-dav1d:amd64
 libheif-plugin-libde265:amd64
@@ -1036,6 +1039,7 @@ liblerc4:amd64
 liblightdm-gobject-1-0:amd64
 liblilv-0-0:amd64
 liblinear4:amd64
+libllhttp9.4:amd64
 libllvm21:amd64
 liblmdb0:amd64
 liblocale-gettext-perl
@@ -1154,6 +1158,7 @@ libnm0:amd64
 libnma-common
 libnma-gtk4-0:amd64
 libnma0:amd64
+libnode137:amd64
 libnorm1t64:amd64
 libnotify-bin
 libnotify4:amd64
@@ -1411,6 +1416,7 @@ libshine3:amd64
 libshout3:amd64
 libsigc++-2.0-0v5:amd64
 libsigc++-3.0-0:amd64
+libsimdjson33:amd64
 libsimdutf33:amd64
 libskia146:amd64
 libslang2:amd64
@@ -1870,8 +1876,22 @@ nikto
 nm-connection-editor
 nmap
 nmap-common
+node-acorn
+node-balanced-match
+node-brace-expansion
+node-corepack
+node-debug
+node-llhttp
+node-lru-cache
+node-minimatch
+node-ms
 node-normalize.css
 node-popper2
+node-semver
+node-undici
+node-xtend
+nodejs
+nodejs-doc
 notus-scanner
 nsis
 nsis-common
