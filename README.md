@@ -1,16 +1,31 @@
 # GhostKali
 
-Backup and restore my complete Kali Linux workstation.
+Personal Kali Linux Backup & Restore Toolkit
 
-Author: ghost
+## Features
 
-Features:
-- XFCE customization
-- qterminal
-- Fastfetch
-- ZSH
-- Powerlevel10k
-- VS Code
+- XFCE Configuration
+- ZSH + Powerlevel10k
 - Wallpapers
-- Fonts
-- Pentesting tools
+- Themes
+- Icons
+- Cursors
+- Package Lists
+- Automatic Font Installer
+- One-command Restore
+
+## Installation
+
+```bash
+git clone https://github.com/COLD7NAAVI/Gh0stKali.git
+cd Gh0stKali
+
+chmod +x *.sh
+./install.sh
+```
+
+## Update Backup
+
+```bash
+./update.sh
+```

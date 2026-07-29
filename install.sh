@@ -1,32 +1,27 @@
 #!/bin/bash
 
-echo "Updating..."
+echo "====================================="
+echo "      GhostKali Installer"
+echo "====================================="
 
 sudo apt update
 
-echo "Installing packages..."
+echo "[*] Installing packages..."
+xargs -a packages/apt-packages.txt sudo apt install -y
 
-sudo xargs -a packages/apt-packages.txt apt install -y
+echo "[*] Installing Oh My Zsh..."
+RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-echo "Installing Python packages..."
+echo "[*] Installing Powerlevel10k..."
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
+${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-pip3 install -r packages/pip-packages.txt
+echo "[*] Installing Fonts..."
+bash scripts/install_fonts.sh
 
-echo "Installing Node packages..."
+echo "[*] Restoring configs..."
+bash restore.sh
 
-cat packages/npm-packages.txt
-
-echo "Copying configs..."
-
-cp dotfiles/.zshrc ~/.zshrc
-cp dotfiles/.p10k.zsh ~/.p10k.zsh
-
-cp -r configs/* ~/.config/
-
-cp -r wallpapers ~/Pictures/
-
-cp -r fonts/* ~/.local/share/fonts/
-
-fc-cache -fv
-
-echo "Done!"
+echo
+echo "[✓] GhostKali installation completed."
+echo "Reboot recommended."
